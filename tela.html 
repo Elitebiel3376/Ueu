@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV App - Tela Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha uma Categoria</h1>
+        <a href="movies.html" class="option">
+            <img src="assets/movies-logo.png" alt="Filmes">
+            <p>Filmes</p>
+        </a>
+        <a href="series.html" class="option">
+            <img src="assets/series-logo.png" alt="Séries">
+            <p>Séries</p>
+        </a>
+        <a href="channels.html" class="option">
+            <img src="assets/channels-logo.png" alt="Canais">
+            <p>Canais</p>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
